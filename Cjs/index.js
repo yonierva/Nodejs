@@ -1,4 +1,4 @@
 // commonJS requiere module
-const { greentig } = require("./mensaje/greenting");
+const { greentig } = require("./greenting");
 
 console.log(greentig())
