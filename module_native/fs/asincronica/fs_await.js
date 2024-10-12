@@ -1,5 +1,5 @@
 // informacion de un archivo con el modulo nativo fs
-//de manera asincrona con await 
+//de manera asincrona secuencial con await 
 // lo forma de hacer funcionar es con el .mjs 
 // o con una funcion autoinvocada
 const {readFile} = require("node:fs/promises");

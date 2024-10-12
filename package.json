@@ -1,0 +1,23 @@
+{
+  "name": "Nodejs",
+  "version": "1.0.0",
+  "description": "practica",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonierva/Nodejs.git"
+  },
+  "keywords": [
+    "practica",
+    "node"
+  ],
+  "author": "yonier vasquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yonierva/Nodejs/issues"
+  },
+  "homepage": "https://github.com/yonierva/Nodejs#readme"
+}
