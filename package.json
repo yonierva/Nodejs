@@ -1,0 +1,32 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "curso Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonierva/Nodejs.git"
+  },
+  "keywords": [
+    "node",
+    "curso"
+  ],
+  "author": "yonier vasquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yonierva/Nodejs/issues"
+  },
+  "homepage": "https://github.com/yonierva/Nodejs#readme",
+  "dependencies": {
+    "picocolors": "^1.1.0"
+  },
+  "devDependencies": {
+    "standard": "^17.1.2"
+  },
+    "eslintConfig": {
+      "extends": "standart"
+    }
+}
