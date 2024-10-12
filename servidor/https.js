@@ -1,10 +1,10 @@
-const http = requiere("node:http");
+const http = require("node:http");
 
-const server = http.createSever((req, res) => {
+const server = http.createServer((req, res) => {
   console.log("informacion resibidad");
   res.end("hello world");
 });
 
-server.listen(8080, () => {
-  console.log("puerto 3000");
+server.listen(0, () => {
+  console.log(`puerto utilizado en https://localhost:${server.address().port}`);
 });
